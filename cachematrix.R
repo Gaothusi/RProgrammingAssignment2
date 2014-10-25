@@ -3,6 +3,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
         mtrx<-NULL
+        #The setters and getter functions
         set<-function(y){
                 x<<-y
                 mtrx<<-NULL
